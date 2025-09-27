@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("egyip_kepek/egyiptomihatter.jpg");
+}
+
+#tartalom {
+    background-color: sandybrown;
+    max-width:  650px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+h1,h2 {
+    color: brown;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
