@@ -1,15 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    
+    font-family: sans-serif; 
     text-align: justify;
 
 }
-
-body {
+/* Egyiptom blokkok */
+body.egyiptom {
     background-image: url("egyip_kepek/egyiptomihatter.jpg");
 }
+
 
 #tartalom {
     background-color: rgb(245, 188, 139);
@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
 }
 
-h1 {
+body.egyiptom h1 {
     color: brown;
     text-align: center;
     margin-top: 12px;
@@ -42,7 +42,7 @@ h2 {
 
 
 
-p {
+body.egyiptom p {
 text-align: justify;
 }
 
@@ -60,3 +60,104 @@ margin: 10px;
 border-style: dashed;
 padding: 10px;
 }
+
+/* Egyiptom blokkok vége */
+
+/* Autok blokkok */
+body.autok {
+    background-color: darkblue;
+}
+
+#autotartalom {
+    background-color: white;
+    max-width:  700px;
+    margin: auto;
+    min-height: 100vh;
+    color: darkblue;
+    padding: 5px;
+}
+
+body.autok h1 {
+    
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    
+}
+
+.nevjobbra {
+    text-align: right;
+    padding: 10px;
+
+}
+
+.nevbalra {
+    text-align: left;
+    padding: 10px;
+}
+
+body.autok p {
+    text-align: justify;    
+    padding: 15px;
+}
+
+#aston {
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#ferrari {
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#mazda {
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#crossf {
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#astonkep {
+float: right;
+padding: 15px;
+width: 45%;
+border-radius: 5px;
+
+}
+
+#ferrarikep {
+float: left;
+padding: 15px;
+width: 38%;
+border-radius: 5px;
+
+
+}
+
+#mazdakep {
+float: right;
+padding: 15px;
+width: 40%;
+border-radius: 5px;
+}
+
+#crossfkep {
+float: left;
+padding: 15px;
+width: 45%;
+border-radius: 5px;
+}
+/* Autok blokkok vége */
