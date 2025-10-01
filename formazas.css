@@ -1,6 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+    
+    text-align: justify;
+
 }
 
 body {
@@ -8,15 +12,51 @@ body {
 }
 
 #tartalom {
-    background-color: sandybrown;
+    background-color: rgb(245, 188, 139);
     max-width:  650px;
     margin: auto;
     min-height: 100vh;
 }
 
-h1,h2 {
+h1 {
     color: brown;
     text-align: center;
     margin-top: 12px;
     margin-bottom: 12px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+h2 {
+    color: brown;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+
+
+p {
+text-align: justify;
+}
+
+#nilus {
+float: right;
+margin: 10px;
+border-style: dashed;
+padding: 10px;
+
+}
+
+#karnak {
+float: left;
+margin: 10px;
+border-style: dashed;
+padding: 10px;
 }
